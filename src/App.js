@@ -34,17 +34,17 @@ function MarkDone({topic,tindex}){
 
 function markTestDone() {
   console.log("inside markTestDone");
-  debugger;
-  db.collection("ikb-python-topics-list").add({
-    title: 'print hello world',
-    link: 'https://www.w3schools.com/python/trypython.asp?filename=demo_default',
-    isDone: true
-  });
+  //debugger;
+  // db.collection("ikb-python-topics-list").add({
+  //   title: 'print hello world',
+  //   link: 'https://www.w3schools.com/python/trypython.asp?filename=demo_default',
+  //   isDone: true
+  // });
 }
 
 function App() {
   console.log("python topic list:", pythonTopicList)
-  console.log("db:", db);
+  // console.log("db:", db);
   
   return (
     <div className="App">
